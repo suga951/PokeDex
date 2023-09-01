@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/dist/output.css" rel="stylesheet">
+    <script src="/src/JavaScript/index.js"></script>
+    <link rel="icon" href="/src/img/pokeball.png">
+    <title>PokeDex!</title>
+</head>
+<body>
+    <main class="grid place-items-center h-screen" id="pokedex">
+        <section class="my-auto rounded-lg bg-gray-300 shadow-xl ring-2 ring-slate-400/5">
+            <div class="h-20" id="pokemon-name-container">
+                <p class="text-center text-6xl"id="pokemon-name"></p>
+            </div>
+            <div id="image">
+                <img id="pokemon-image">
+            </div>
+            <div class="grid grid-cols-2 h-10"id="types">
+                <div class="text-center" id="pokemon-type-one">   
+                </div>
+                <div class="text-center"id="pokemon-type-two"></div>
+            </div>
+            <div>
+                <p class="my-2 text-2xl mx-2 p-2"id="pokemon-description"></p>
+            </div>
+            <div class="grid grid-cols-2 text-center" id="pokemon-stats">
+                <div>
+                    <p class="text-3xl font-medium my-auto">HP</p>
+                    <p class="text-xl" id="hp"></p>
+                </div>
+                <div>
+                    <p class="text-3xl font-medium my-auto">Attack</p>
+                    <p class="text-xl" id="atk"></p>
+                </div>
+                <div>
+                    <p class="text-3xl font-medium">Defense</p>
+                    <p class="text-xl" id="def"></p>
+                </div>
+                <div>
+                    <p class="text-3xl font-medium">Speed</p>
+                    <p class="text-xl" id="speed"></p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</html>
